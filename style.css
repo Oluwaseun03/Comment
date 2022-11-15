@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0px;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.wrapp{
+    max-width:600px;
+    margin:auto;
+    margin-top: 3rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 8px 16px 16px 4px hsl(0deg 0% 0% / 0.25);
+}
+
+.wrapp section{
+    border:1px solid #e6e6e6;
+    border-radius:5px;
+    padding: 1rem;
+    margin: .5rem 0;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.wrapp .sect_one{
+    color:green;
+}
+
+.wrapp .sect_two{
+    color:red;
+}
+
+.wrapp .sect_three{
+    color:blue;
+}
+
+.wrapp .sect_one h2,
+.wrapp .sect_two h2,
+.wrapp .sect_three h2{
+    font-size: 18px;
+}
+
+.wrapp .sect_one b,
+.wrapp .sect_one p,
+.wrapp .sect_one ul li,
+.wrapp .sect_two b,
+.wrapp .sect_two p,
+.wrapp .sect_two ul li{
+    font-size:14px;
+}
+
+.wrapp .sect_one ul li,
+.wrapp .sect_two ul li,
+.wrapp .sect_three ul li{
+    list-style: none;
+}
+
+.wrapp .sect_one ul li:before,
+.wrapp .sect_two ul li:before,
+.wrapp .sect_three ul li:before{
+    content: '✓';
+}
+
+/* #like{
+    color: green;
+.love{
+    color: green;
+}
+
+
+    #far{
+        color: red;
+    }
+}
+
+.diff{
+    color: blue;
+} */
